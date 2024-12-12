@@ -5,7 +5,7 @@ import CumSum as CS
 ef = 'Uniform Sections & Back-calcs_N7-7 0-65 ct 231116.xlsx'
 RL = LD.Load(ef)
 
-print("Left Rutting\tRight Rutting \t CumRight \t CumLeft")
+print("Start[km]\tEnd[km]\tLeft Rutting\tRight Rutting \t CumRight \t CumLeft")
 # Get lists from the Load instance
 left_list = RL.get_left_list()
 right_list = RL.get_right_list()
